@@ -3,8 +3,8 @@ import asyncio
 from telebot.async_telebot import AsyncTeleBot
 
 # masukan api key dan api token yang di butuhkan
-openai.api_key = "isi api key akun openai"
-bot = AsyncTeleBot('isi api token bot telegram')
+openai.api_key = "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"
+bot = AsyncTeleBot('5897092819:AAEHVuZehkokKMfZifx0mgOI-VJpIzbaC3A')
 
 
 @bot.message_handler(commands=['help', 'start'])
